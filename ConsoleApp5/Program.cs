@@ -7,7 +7,6 @@ namespace ConsoleApp5
         static void Main(string[] args)
         {
             int sizeArray;
-            int sum = 0;
             
             string userIput;
             
@@ -40,6 +39,8 @@ namespace ConsoleApp5
 
                 if (userIput == "sum")
                 {
+                    int sum = 0;
+                    
                     for (int i = 0; i < numbers.Length;i++)
                     {
                         sum += numbers[i];
