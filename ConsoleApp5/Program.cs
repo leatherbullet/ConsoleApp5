@@ -24,7 +24,7 @@ namespace ConsoleApp5
 
             bool canCycleWork = true;
 
-            while (canCicleWork)
+            while (canCycleWork)
             { 
                 Console.Clear();
                 Console.Write("введенные числа: ");
