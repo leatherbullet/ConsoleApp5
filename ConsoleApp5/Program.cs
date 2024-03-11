@@ -22,7 +22,7 @@ namespace ConsoleApp5
                 numbers[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            bool canCicleWork = true;
+            bool canCycleWork = true;
 
             while (canCicleWork)
             { 
@@ -49,7 +49,7 @@ namespace ConsoleApp5
                 }
                 else if (userIput == "exit")
                 {
-                    canCicleWork = false;
+                    canCycleWork = false;
                 }
                 else 
                 {
