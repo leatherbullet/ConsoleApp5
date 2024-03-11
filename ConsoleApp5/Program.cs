@@ -45,6 +45,7 @@ namespace ConsoleApp5
                     {
                         sum += numbers[i];
                     }
+                    
                     Console.WriteLine("сумма массива: " + sum);
                     Console.ReadKey();
                 }
